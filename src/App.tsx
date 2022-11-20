@@ -2,13 +2,16 @@ import { useEffect, useState } from 'react'
 import { TUser, weight } from './interfaces/index'
 import './App.css'
 import { getUserWeight, getUser } from './utils/index'
+import { WraperUser } from './components/index'
+
+
 
 function App() {
   const [weights, setWeights] = useState<weight[] | never>([])
   const [user, setUser] = useState<TUser | null>(null)
 
   useEffect(() => {
-    getUser(2312324524234, setUser)
+    getUser(2312324520898, setUser)
   }, [])
 
   useEffect(() => {
@@ -18,13 +21,7 @@ function App() {
   return (
     <div className="App">
       {
-        user ? <h1>{user.name}</h1> : null
-      }
-      {
-        weights.map((weight) => (
-          <h5 key={weight.id}>{weight.weight}</h5>
-        )
-        )
+        user ? <WraperUser user={user} weights={weights} /> : <h2>Error, El usuario no existe</h2>
       }
     </div>
   )
