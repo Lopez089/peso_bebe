@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "Leo",
+      "birthday": "1 de Enero de 1970, 00:00:00 UTC",
+      "birthWeight": 3.589,
+      "id": 2312324524234
+    },
+    {
+      "name": "Alejandra",
+      "birthday": "4 de Enero de 1970, 00:00:00 UTC",
+      "birthWeight": 2.589,
+      "id": 2312324520898
+    }
+  ],
+  "weight": [
+    {
+      "idUser": 2312324524234,
+      "weights": [
+        {
+          "weight": 4.589,
+          "date": "10 de Enero de 1970, 00:00:00 UTC",
+          "id": 1212
+        },
+        {
+          "weight": 5.589,
+          "date": "17 de Enero de 1970, 00:00:00 UTC",
+          "id": 121232
+        }
+      ]
+    },
+    {
+      "idUser": 2312324520898,
+      "weights": [
+        {
+          "weight": 10.589,
+          "date": "5 de Enero de 1970, 00:00:00 UTC",
+          "id": 12123232
+        },
+        {
+          "weight": 4.589,
+          "date": "15 de Enero de 1970, 00:00:00 UTC",
+          "id": 12123232423
+        }
+      ]
+    }
+  ]
+}
