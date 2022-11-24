@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "Leo",
+      "birthday": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
+      "birthWeight": 3.589,
+      "id": 2312324524234
+    },
+    {
+      "name": "Alejandra",
+      "birthday": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
+      "birthWeight": 2.589,
+      "id": 2312324520898
+    }
+  ],
+  "weight": [
+    {
+      "idUser": 2312324524234,
+      "weights": [
+        {
+          "weight": 4.589,
+          "date": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
+          "id": 1212
+        },
+        {
+          "weight": 5.589,
+          "date": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
+          "id": 121232
+        }
+      ]
+    },
+    {
+      "idUser": 2312324520898,
+      "weights": [
+        {
+          "weight": 10.589,
+          "date": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
+          "id": 12123232
+        },
+        {
+          "weight": 4.589,
+          "date": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
+          "id": 12123232423
+        }
+      ]
+    }
+  ]
+}

@@ -2,47 +2,29 @@
   "users": [
     {
       "name": "Leo",
-      "birthday": "1 de Enero de 1970, 00:00:00 UTC",
+      "birthday": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
       "birthWeight": 3.589,
       "id": 2312324524234
     },
     {
       "name": "Alejandra",
-      "birthday": "4 de Enero de 1970, 00:00:00 UTC",
+      "birthday": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
       "birthWeight": 2.589,
       "id": 2312324520898
     }
   ],
-  "weight": [
+  "weights": [
     {
-      "idUser": 2312324524234,
-      "weights": [
-        {
-          "weight": 4.589,
-          "date": "10 de Enero de 1970, 00:00:00 UTC",
-          "id": 1212
-        },
-        {
-          "weight": 5.589,
-          "date": "17 de Enero de 1970, 00:00:00 UTC",
-          "id": 121232
-        }
-      ]
+      "date": "Thu Nov 24 2022 08:18:22 GMT+0100 (hora estándar de Europa central)",
+      "id": "42ccbb86-ac39-449d-a6d7-005d0b58a76b",
+      "weight": 1,
+      "idUser": 2312324524234
     },
     {
-      "idUser": 2312324520898,
-      "weights": [
-        {
-          "weight": 10.589,
-          "date": "5 de Enero de 1970, 00:00:00 UTC",
-          "id": 12123232
-        },
-        {
-          "weight": 4.589,
-          "date": "15 de Enero de 1970, 00:00:00 UTC",
-          "id": 12123232423
-        }
-      ]
+      "date": "Thu Nov 24 2022 21:45:37 GMT+0100 (hora estándar de Europa central)",
+      "id": "7d231c83-2f00-45e7-96fe-12c6aa055cac",
+      "weight": 2,
+      "idUser": 2312324524234
     }
   ]
 }
