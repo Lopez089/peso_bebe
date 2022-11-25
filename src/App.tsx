@@ -6,7 +6,6 @@ import './App.css'
 function App() {
   const [weights, newWeight, setNewWeight, setWeights, user] = useUser()
   const [growthInterval, setgrowthInterval] = useState(null)
-  console.log("🚀 ~ file: App.tsx ~ line 10 ~ App ~ growthInterval", growthInterval)
   return (
     <div className="App">
 
