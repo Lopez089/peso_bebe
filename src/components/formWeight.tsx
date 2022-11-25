@@ -1,10 +1,10 @@
 import { handleSubmit, handleChange } from '../utils/index'
 
-export const FormWeight = ({ setWeights, newWeight, setNewWeight, user }) => {
+export const FormWeight = ({ setWeights, newWeight, setNewWeight, user, weight, setgrowthInterval }) => {
     return (
 
         <div>
-            <form onSubmit={(e: Event) => handleSubmit(e, setWeights, user.id, newWeight)}>
+            <form onSubmit={(e: Event) => handleSubmit(e, setWeights, user.id, newWeight, weight, user, setgrowthInterval)}>
                 <div>
                     <label htmlFor="peso">Peso</label>
                     <br />

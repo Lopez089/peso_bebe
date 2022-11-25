@@ -1,7 +1,7 @@
 import { Weight } from '../components/index'
 import { wraperUserProp } from '../interfaces/index'
 
-export const WraperUser = ({ user, weights }: wraperUserProp) => {
+export const WraperUser = ({ user, weights, growthInterval }: wraperUserProp) => {
     return (
         <>
             <h1>{user.name}</h1>
@@ -9,7 +9,7 @@ export const WraperUser = ({ user, weights }: wraperUserProp) => {
             {
                 weights.map(({ weight, date, id }) => {
                     return (
-                        <Weight weight={weight} date={date} id={id} key={id} />
+                        <Weight weight={weight} date={date} id={id} key={id} growthInterval={growthInterval} />
                     )
                 })
             }

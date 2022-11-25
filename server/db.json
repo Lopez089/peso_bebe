@@ -15,16 +15,11 @@
   ],
   "weights": [
     {
-      "date": "Thu Nov 24 2022 08:18:22 GMT+0100 (hora estándar de Europa central)",
-      "id": "42ccbb86-ac39-449d-a6d7-005d0b58a76b",
-      "weight": 1,
-      "idUser": 2312324524234
-    },
-    {
-      "date": "Thu Nov 24 2022 21:45:37 GMT+0100 (hora estándar de Europa central)",
-      "id": "7d231c83-2f00-45e7-96fe-12c6aa055cac",
-      "weight": 2,
-      "idUser": 2312324524234
+      "date": "Thu Nov 24 2022 23:37:09 GMT+0100 (hora estándar de Europa central)",
+      "id": "fc3ce818-bb76-4bfb-b254-16de04447934",
+      "weight": 4,
+      "idUser": 2312324524234,
+      "growthInterval": 0.41100000000000003
     }
   ]
 }
