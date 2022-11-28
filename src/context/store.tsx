@@ -1,19 +1,30 @@
-import React, { createContext } from 'react';
-import { useUser } from '../hook/index'
+import { createContext, useReducer } from 'react';
 
+const initialState = {
+    weights: [], user: {}
+}
 
-export const Context = createContext(null)
+export const context = createContext(null)
 
 export const Store = ({ children }) => {
-    const [weights, user] = useUser()
 
-    const initialState = {
-        weights, user
-    }
+    const [state, dispatch] = useReducer((state, action) => {
+        switch (action.type) {
+            case 'initial_state_weight':
+                return { ...state, weights: action.payload }
+            case 'initial_state_user':
+                return { ...state, user: action.payload }
+            case 'add_new_weight':
+                return { ...state, weights: state.weights.concat(action.payload) }
+            default:
+                return state
+        }
+    }, initialState)
+
     return (
-        <Context.Provider value={initialState}>
+        <context.Provider value={[state, dispatch]}>
             {children}
-        </Context.Provider>
+        </context.Provider>
     )
 
 }

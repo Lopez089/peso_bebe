@@ -1,4 +1,4 @@
-export const handleChange = (e, setNewWeight) => {
+export const handleChange = (e, setWeightChange) => {
     const weight = e.target.value
-    setNewWeight(weight)
+    setWeightChange(weight)
 }

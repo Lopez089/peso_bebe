@@ -1,13 +1,18 @@
+import { useContext } from 'react'
+import { context } from '../context/store'
 import { Weight } from '../components/index'
 import { wraperUserProp } from '../interfaces/index'
 
-export const WraperUser = ({ user, weights, growthInterval }: wraperUserProp) => {
+
+export const WraperUser = () => {
+    const [state, dispatch] = useContext(context)
+
     return (
         <>
-            <h1>{user.name}</h1>
-            <Weight weight={user.birthWeight} date={user.birthday} />
+            <h1>{state.user.name}</h1>
+            <Weight weight={state.user.birthWeight} date={state.user.birthday} />
             {
-                weights.map(({ weight, date, id }) => {
+                state.weights.map(({ weight, date, id, growthInterval }) => {
                     return (
                         <Weight weight={weight} date={date} id={id} key={id} growthInterval={growthInterval} />
                     )
