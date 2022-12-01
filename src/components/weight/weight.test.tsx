@@ -20,11 +20,11 @@ describe('component weight', () => {
         expect(screen.getByText(weightNewUser.growthInterval)).toBeInTheDocument()
     })
     it('if the interval is positive it appears in green', () => {
-        render(<Weight weight={weightNewUser.weight} date={weightNewUser.date} growthInterval={weightNewUser.growthInterval} />)
-        expect(screen.getByText(weightNewUser.growthInterval)).toHaveClass('text-red-500')
-    })
-    it('if the weight interval is negative it appears in red', () => {
         render(<Weight weight={weightNewUser.weight} date={weightNewUser.date} growthInterval={0.500} />)
         expect(screen.getByText(0.500)).toHaveClass('text-green-500')
+    })
+    it('if the weight interval is negative it appears in red', () => {
+        render(<Weight weight={weightNewUser.weight} date={weightNewUser.date} growthInterval={weightNewUser.growthInterval} />)
+        expect(screen.getByText(weightNewUser.growthInterval)).toHaveClass('text-red-500')
     })
 })
