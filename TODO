@@ -1,8 +1,8 @@
 
 Todo:
   ✔ intalar tailwin css @started(22-12-01 10:55) @done(22-12-01 11:01) @lasted(6m58s)
-  ☐ si es menor a 0 texto en rojo @started(22-12-01 11:02)
-  ☐ si es mayor a 0 texto en verde
+  ✔ si es menor a 0 texto en rojo @started(22-12-01 11:02) @done(22-12-01 11:15) @lasted(13m53s)
+  ☐ si es mayor a 0 texto en verde @started(22-12-01 11:15)
   ☐ buscar impiracion de una tarjeta para peso
   ☐ Crear tarje para el peso
   ☐ refactor component peso 

@@ -17,7 +17,7 @@ export const Weight = ({ weight, date, growthInterval }: weight) => {
                     <div>
                         <h3>interval</h3>
                         {
-                            growthInterval < 0 ? <p className='text-red-500'>{growthInterval}</p> : <p>{growthInterval}</p>
+                            growthInterval < 0 ? <p className='text-red-500'>{growthInterval}</p> : <p className='text-green-500'>{growthInterval}</p>
                         }
 
                     </div>

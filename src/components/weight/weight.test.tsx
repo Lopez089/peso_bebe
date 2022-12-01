@@ -25,7 +25,6 @@ describe('component weight', () => {
     })
     it('if the weight interval is negative it appears in red', () => {
         render(<Weight weight={weightNewUser.weight} date={weightNewUser.date} growthInterval={0.500} />)
-        screen.debug()
-        expect(screen.getByText(weightNewUser.growthInterval)).toHaveClass('text-green-500')
+        expect(screen.getByText(0.500)).toHaveClass('text-green-500')
     })
 })
