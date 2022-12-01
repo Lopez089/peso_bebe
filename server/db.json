@@ -2,35 +2,23 @@
   "users": [
     {
       "name": "Leo",
-      "birthday": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
+      "birthday": "2022-11-30T15:51:34.894+01:00",
       "birthWeight": 3.589,
       "id": 2312324524234
     },
     {
       "name": "Alejandra",
-      "birthday": "Mon Nov 21 2022 11:31:05 GMT+0100 (hora estándar de Europa central)",
+      "birthday": "2022-11-30T15:51:34.894+01:00",
       "birthWeight": 2.589,
       "id": 2312324520898
     }
   ],
   "weights": [
     {
-      "date": "Mon Nov 28 2022 22:50:02 GMT+0100 (hora estándar de Europa central)",
-      "id": "f60c9419-7e44-4173-b476-77425b0f63da",
-      "weight": 4,
-      "growthInterval": 0.41100000000000003
-    },
-    {
-      "date": "Mon Nov 28 2022 22:50:12 GMT+0100 (hora estándar de Europa central)",
-      "id": "8ea2c990-29ef-4509-a298-539afac8d451",
-      "weight": 5,
-      "growthInterval": 1
-    },
-    {
-      "date": "Mon Nov 28 2022 22:50:53 GMT+0100 (hora estándar de Europa central)",
-      "id": "69a84c11-647f-4b3a-a861-4eaa58e099d9",
-      "weight": 4.5,
-      "growthInterval": -0.5
+      "date": "2022-11-30T15:51:34.894+01:00",
+      "id": "674bac24-b9c6-49b2-a68f-8b4c6c37a499",
+      "weight": 212,
+      "growthInterval": 207.5
     }
   ]
 }

@@ -2,6 +2,7 @@ import { weight, TUser } from '../interfaces/index'
 import { v4 as uuidv4 } from 'uuid';
 import { weightPost } from '../utils/index'
 import { action } from '../App'
+import { DateTime } from "luxon";
 
 export const handleSubmit = (
     e: React.FormEvent<HTMLInputElement>,
@@ -12,7 +13,7 @@ export const handleSubmit = (
 ) => {
     e.preventDefault()
 
-    const date: string = new Date().toString()
+    const date: string = DateTime.now()
 
     let growthInterval
 
